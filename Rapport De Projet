@@ -28,3 +28,4 @@ Gestion des Événements : La gestion des clics sur les cartes pourrait être un
 Rendu Graphique : Le dessin des cartes nécessite une attention particulière pour assurer une représentation visuelle claire. QPainter a été utilisé efficacement pour cela.
 Conclusion
 Le projet "GameCard" démontre une compréhension solide de la programmation orientée objet, de la gestion des interfaces graphiques et de l'application des concepts de Qt. Il présente une architecture bien structurée et des choix de conception réfléchis, offrant un exemple pratique de développement d'une application interactive en C++.
+Ahmed Ammari IDAI :ahmed.ammari1@etu.uae.ac.ma
