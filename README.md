@@ -1,0 +1,30 @@
+Le projet "GameCard" est une application C++ utilisant la bibliothèque Qt pour créer une interface graphique interactive pour un jeu de cartes. Ce projet illustre l'utilisation de la programmation orientée objet et des fonctionnalités de l'interface graphique de Qt.
+
+Architecture du Code
+Classe Card
+
+Fonction : Représente une carte à jouer.
+Attributs : Valeur (int), Couleur (int).
+Méthodes : Accesseurs pour obtenir la valeur et la couleur de la carte.
+Classe CardWidget
+
+Fonction : Widget pour afficher une carte de manière interactive.
+Héritage : Dérivé de QWidget.
+Caractéristiques :
+Gère les événements de peinture pour dessiner la carte.
+Utilise les signaux et slots de Qt pour gérer les clics sur la carte.
+Classe Deck
+
+Fonction : Représente un jeu de cartes.
+Méthodes :
+melanger() pour mélanger les cartes.
+tirer() pour tirer la carte du dessus.
+Choix de Conception
+Utilisation de Qt : Qt a été choisi pour son efficacité dans la création d'interfaces graphiques riches et interactives. Les widgets Qt facilitent la création d'éléments d'interface utilisateur comme CardWidget.
+Modèle Objet : L'approche orientée objet permet une organisation claire du code, chaque classe ayant des responsabilités bien définies.
+Signaux et Slots : Utilisés pour une interaction fluide dans l'interface utilisateur, respectant le modèle événementiel de Qt.
+Défis et Solutions
+Gestion des Événements : La gestion des clics sur les cartes pourrait être un défi. L'utilisation des signaux et slots de Qt a permis une solution élégante et fonctionnelle.
+Rendu Graphique : Le dessin des cartes nécessite une attention particulière pour assurer une représentation visuelle claire. QPainter a été utilisé efficacement pour cela.
+Conclusion
+Le projet "GameCard" démontre une compréhension solide de la programmation orientée objet, de la gestion des interfaces graphiques et de l'application des concepts de Qt. Il présente une architecture bien structurée et des choix de conception réfléchis, offrant un exemple pratique de développement d'une application interactive en C++.
